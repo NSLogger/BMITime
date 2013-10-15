@@ -17,7 +17,7 @@ int main(int argc, const char * argv[])
         
         Person *person = [[Person alloc] init];
         
-        [person setweightInKilos:96];
+        [person setWeightInKilos:96];
         [person setHeightInMeters:1.8];
         
         float bmi = [person bodyMassIndex];
