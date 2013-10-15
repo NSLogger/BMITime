@@ -10,6 +10,7 @@
 		7D4388B3180DDE0000390DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4388B2180DDE0000390DDD /* Foundation.framework */; };
 		7D4388B6180DDE0000390DDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4388B5180DDE0000390DDD /* main.m */; };
 		7D4388BA180DDE0000390DDD /* BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D4388B9180DDE0000390DDD /* BMITime.1 */; };
+		7D4388C2180DDE2400390DDD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4388C1180DDE2400390DDD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		7D4388B5180DDE0000390DDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D4388B8180DDE0000390DDD /* BMITime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMITime-Prefix.pch"; sourceTree = "<group>"; };
 		7D4388B9180DDE0000390DDD /* BMITime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BMITime.1; sourceTree = "<group>"; };
+		7D4388C0180DDE2400390DDD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7D4388C1180DDE2400390DDD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		7D4388A6180DDE0000390DDD = {
 			isa = PBXGroup;
 			children = (
+				7D4388C0180DDE2400390DDD /* Person.h */,
+				7D4388C1180DDE2400390DDD /* Person.m */,
 				7D4388B4180DDE0000390DDD /* BMITime */,
 				7D4388B1180DDE0000390DDD /* Frameworks */,
 				7D4388B0180DDE0000390DDD /* Products */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4388C2180DDE2400390DDD /* Person.m in Sources */,
 				7D4388B6180DDE0000390DDD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
