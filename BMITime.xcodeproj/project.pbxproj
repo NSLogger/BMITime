@@ -11,6 +11,8 @@
 		7D4388B6180DDE0000390DDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4388B5180DDE0000390DDD /* main.m */; };
 		7D4388BA180DDE0000390DDD /* BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D4388B9180DDE0000390DDD /* BMITime.1 */; };
 		7D4388C2180DDE2400390DDD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4388C1180DDE2400390DDD /* Person.m */; };
+		7DD00B7E18115CD60013525F /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD00B7D18115CD60013525F /* Employee.m */; };
+		7DD00B81181167470013525F /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD00B80181167470013525F /* Asset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		7D4388B9180DDE0000390DDD /* BMITime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BMITime.1; sourceTree = "<group>"; };
 		7D4388C0180DDE2400390DDD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		7D4388C1180DDE2400390DDD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7DD00B7C18115CD60013525F /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		7DD00B7D18115CD60013525F /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		7DD00B7F181167470013525F /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		7DD00B80181167470013525F /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,10 @@
 			children = (
 				7D4388C0180DDE2400390DDD /* Person.h */,
 				7D4388C1180DDE2400390DDD /* Person.m */,
+				7DD00B7F181167470013525F /* Asset.h */,
+				7DD00B80181167470013525F /* Asset.m */,
+				7DD00B7C18115CD60013525F /* Employee.h */,
+				7DD00B7D18115CD60013525F /* Employee.m */,
 				7D4388B4180DDE0000390DDD /* BMITime */,
 				7D4388B1180DDE0000390DDD /* Frameworks */,
 				7D4388B0180DDE0000390DDD /* Products */,
@@ -144,7 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD00B7E18115CD60013525F /* Employee.m in Sources */,
 				7D4388C2180DDE2400390DDD /* Person.m in Sources */,
+				7DD00B81181167470013525F /* Asset.m in Sources */,
 				7D4388B6180DDE0000390DDD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +269,7 @@
 				7D4388BF180DDE0000390DDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
